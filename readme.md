@@ -1,4 +1,4 @@
-------------------------------------------------------
+-------------------------------------<!-- Schedule Btn -->-----------------
 Template Name: Confer - Conference Event HTML Template
 Template Author: Colorlib
 Template Author URI: https://colorlib.com
