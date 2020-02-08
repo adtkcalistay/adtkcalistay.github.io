@@ -29,11 +29,13 @@
         var welcomeSlider = $('.welcome-slides');
         welcomeSlider.owlCarousel({
             items: 1,
-            loop: true,
+            mouseDrag: false,
+            touchDrag: false,
+            loop: false,
             autoplay: false,
             smartSpeed: 1000,
             autoplayTimeout: 10000,
-            nav: true,
+            nav: false,
             navText: [('<i class="zmdi zmdi-chevron-left"></i>'), ('<i class="zmdi zmdi-chevron-right"></i>')]
         })
 
@@ -225,8 +227,8 @@
     // :: 13.0 Countdown Active Code
     // ****************************
     if ($.fn.countdown) {
-        $("#clock").countdown("2020/04/15", function (event) {
-            $(this).html(event.strftime("<div>%m <span>Months</span></div> <div>%d <span>Days</span></div> <div>%H <span>Hours</span></div> <div>%M <span>Minutes</span></div> <div>%S <span>Seconds</span></div>"));
+        $("#clock").countdown("2020/04/17", function (event) {
+            $(this).html(event.strftime("<div>%m <span>Ay</span></div> <div>%d <span>Gün</span></div> <div>%H <span>Saat</span></div> <div>%M <span>Dakika</span></div> <div>%S <span>Saniye</span></div>"));
         });
     }
 
