@@ -44,6 +44,10 @@ Last Update: March 14, 2019
 @import url(css/material-design-iconic-font.min.css);
 @import url(css/style.css);
 /* :: 01.0 Reboot Area CSS */
+html{
+  scroll-behavior:smooth
+}
+
 * {
   margin: 0;
   padding: 0; }
