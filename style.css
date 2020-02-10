@@ -44,10 +44,6 @@ Last Update: March 14, 2019
 @import url(css/material-design-iconic-font.min.css);
 @import url(css/style.css);
 /* :: 01.0 Reboot Area CSS */
-html{
-  scroll-behavior:smooth
-}
-
 * {
   margin: 0;
   padding: 0; }
@@ -1556,7 +1552,7 @@ input:required {
   z-index: 1;
   margin-bottom: 70px; }
   .single-blog-area .single-blog-thumb {
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 10px 10px;
     overflow: hidden; }
     .single-blog-area .single-blog-thumb img {
       border-radius: 10px 10px 0 0;
@@ -2637,7 +2633,6 @@ input:required {
   border-radius: 0;
   border-bottom: 1px solid #4d507d;
   font-size: 15px;
-  text-transform: capitalize;
   color: #9293bc;
   padding-left: 0; }
   .form-group .form-control:focus {
