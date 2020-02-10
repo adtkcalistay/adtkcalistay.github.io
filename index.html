@@ -36,12 +36,12 @@
                     <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo_adt.png" style="width: 160px;" alt=""></a>
 
                     <!-- Navbar Toggler -->
-                    <div class="classy-navbar-toggler">
-                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    <div class="classy-navbar-toggler" >
+                        <span id="icon" class="navbarToggler"><span></span><span></span><span></span></span>
                     </div>
 
                     <!-- Menu -->
-                    <div class="classy-menu">
+                    <div class="classy-menu" id="menu">
                         <!-- Menu Close Button -->
                         <div class="classycloseIcon">
                             <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
@@ -55,7 +55,7 @@
                             </ul>
 
                             <!-- Get Tickets Button -->
-                            <a href="#form" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Katılım Formu <i class="zmdi zmdi-long-arrow-right"></i></a>
+                            <a href="#form" id="close" onclick="hide()" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Katılım Formu <i class="zmdi zmdi-long-arrow-right"></i></a>
                         </div>
                         <!-- Nav End -->
                     </div>
@@ -64,7 +64,12 @@
         </div>
     </header>
     <!-- Header Area End -->
-
+<script type="text/javascript">
+  function hide(){
+    $('#menu').attr("class","classy-menu")
+    $('#icon').attr("class","navbarToggler")
+  }
+</script>
     <!-- Welcome Area Start -->
     <section class="welcome-area">
         <div class="welcome-slides owl-carousel">
