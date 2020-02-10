@@ -1469,7 +1469,7 @@ input:required {
         color: #ffffff;
         font-weight: 400; }
         .breadcrumb-content .breadcrumb .breadcrumb-item a:hover, .breadcrumb-content .breadcrumb .breadcrumb-item a:focus {
-          color: #df42b1; }
+          color: #3787eb; }
     .breadcrumb-content .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
       content: '\f105';
       color: #ffffff;
